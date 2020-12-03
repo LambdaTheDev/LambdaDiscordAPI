@@ -5,7 +5,8 @@
 	"license": "proprietary",
 	"require":
 	{
-		"guzzlehttp/guzzle": "7.2.0"
+		"guzzlehttp/guzzle": "7.2.0",
+		"ext-json": "*"
 	},
 	"autoload":
 	{

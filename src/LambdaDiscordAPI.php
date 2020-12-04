@@ -50,7 +50,3 @@ class LambdaDiscordAPI
         $this->guildManager = new GuildManager($this);
     }
 }
-
-$api = new LambdaDiscordAPI('NzcyNTUzMDk4NjkwMDM1ODA0.X58WJA._oUN3GqTUzMCoJwW9Rm3n26dhMw', array());
-$roles = $api->guildManager->getGuildMember('648991428982079537', '374554474712137728');
-var_dump($roles);
